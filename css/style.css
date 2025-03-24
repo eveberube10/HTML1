@@ -1,0 +1,70 @@
+html{
+  font-size: 112.5%;
+}
+body{
+    background-color:rgb(210, 231, 240);
+    color: rgb(0, 0, 0);
+}
+
+h1, h2, h3, h4, h5, h6, hr, th, td, p,ol,li{
+
+    font-family: "Montserrat", serif;
+}
+
+h1, h2, h3 {
+    color: rgb(107, 133, 134);
+  }
+
+a {
+    color: rgb(255, 255, 255);
+  }
+
+div.hr {
+    height: 15px;
+    background: #fff url(hr1.gif) no-repeat scroll center;
+    width: auto;
+  }
+  div.hr hr {
+    display: none;
+  }
+  p {
+    font-size: 1rem;
+  }
+  h1 {
+    font-size: 5.61 rem;
+  }
+  h2 {
+    font-size: 4.209 rem;
+  }
+  h3 {
+    font-size: 3.157 rem;
+  }
+  h4 {
+    font-size: 2.369 rem;
+  }
+  /* help! a classmate helped me make this */
+  
+a:link {
+    color: rgb(255, 255, 255);
+  }
+
+a:visited {
+    color: rgb(0, 195, 255);
+  }
+
+a:hover {
+    color: rgb(255, 255, 255);
+  }
+
+  
+ol, li {
+    font-size: 100%;
+  }
+
+  h2 {
+line-height:1.83 ;
+
+  }
+  
+  
+  .thank_h3 {color:rgb(171, 223, 226)}

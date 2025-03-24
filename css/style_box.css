@@ -1,0 +1,48 @@
+.container{
+width: 56rem;
+
+margin:3rem auto;
+
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+
+}
+
+.title{
+    border-bottom:1px dotted #bbbbbb;
+    width: 25rem;
+    margin-bottom: 4rem;
+}
+
+.section{
+    margin-bottom:3rem;
+
+
+
+}
+
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  .rectangle {
+    height: 3rem;
+    width: 6rem;
+    margin: 2rem auto;
+    border: 2px dotted black;
+    transform: rotate(0.5turn);
+  
+  }
+  
+  .rect1 {
+    transform: translate(1rem 1rem);
+    background-color: rgb(42, 56, 58);
+  }
+  .rect2:hover{
+    transform: rotate(45deg);
+    background-color: rgb(170, 218, 214);
+  }
